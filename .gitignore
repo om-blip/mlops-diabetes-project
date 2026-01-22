@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Data
+data/processed/
+data/raw/*.zip
+
+# Models
+models/
+
+# Logs
+*.log
+
+# MLflow
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db 

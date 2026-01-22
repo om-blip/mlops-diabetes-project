@@ -1,0 +1,11 @@
+stages:
+  train_model:
+    cmd: python src/train.py
+    deps:
+    - data/raw/diabetes.csv
+    - src/train.py
+    outs:
+    - models/model.pkl
+    metrics:
+    - metrics/metrics.json:
+        cache: false
