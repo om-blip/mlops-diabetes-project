@@ -5,18 +5,18 @@ stages:
     deps:
     - path: data/raw/diabetes.csv
       hash: md5
-      md5: 0c84b09d240b72e8180bceff3965d1bd
-      size: 22738151
+      md5: 2d81284189ec7da4c42dc90ce8e78770
+      size: 22991832
     - path: src/train.py
       hash: md5
-      md5: 4aef033cefe0c2dd357baac599195240
-      size: 2163
+      md5: f1927db8631095b584928d40535fc1ac
+      size: 1618
     outs:
     - path: metrics/metrics.json
       hash: md5
-      md5: 4ff96bc5a7cac95bd5b35e0a8101ee72
+      md5: 6d4eb93bfd8bb1862168fb014577c4ff
       size: 117
     - path: models/model.pkl
       hash: md5
-      md5: 4e9453120c91816884e60659d23a81e9
-      size: 125969073
+      md5: e63cd9ce9d8ffdb464e9f82de1d73e0b
+      size: 3597001121
